@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jul 31 19:06:28 2025
+# Process ID: 19188
+# Current directory: D:/Mtech/z_placements/verilog_code/fifo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14652 D:\Mtech\z_placements\verilog_code\fifo\fifo.xpr
+# Log file: D:/Mtech/z_placements/verilog_code/fifo/vivado.log
+# Journal file: D:/Mtech/z_placements/verilog_code/fifo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Mtech/z_placements/verilog_code/fifo/fifo.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source async_fifo_TB.tcl
+current_wave_config {Untitled 1}
+add_wave {{/async_fifo_TB/as_fifo/fifom/b_wptr}} {{/async_fifo_TB/as_fifo/fifom/b_rptr}} 
+current_wave_config {Untitled 1}
+add_wave {{/async_fifo_TB/as_fifo/wptr_h/g_rptr_sync}} 
+current_wave_config {Untitled 1}
+add_wave {{/async_fifo_TB/as_fifo/wptr_h/wfull}} 
+restart
+run 50 us
+current_wave_config {Untitled 1}
+add_wave {{/async_fifo_TB/wclk}} 
+close_sim

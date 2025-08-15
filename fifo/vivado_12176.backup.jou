@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Jul 30 21:19:15 2025
+# Process ID: 12176
+# Current directory: D:/Mtech/z_placements/verilog_code/fifo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1244 D:\Mtech\z_placements\verilog_code\fifo\fifo.xpr
+# Log file: D:/Mtech/z_placements/verilog_code/fifo/vivado.log
+# Journal file: D:/Mtech/z_placements/verilog_code/fifo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Mtech/z_placements/verilog_code/fifo/fifo.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property file_type SystemVerilog [get_files  {D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sources_1/new/fifo_mem.v D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sources_1/new/asynchronous_fifo.v D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sources_1/new/synchronizer.v D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sources_1/new/wptr_handler.v D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sources_1/new/rptr_handler.v}]
+launch_simulation
+source async_fifo_TB.tcl
+run 50 us
+current_wave_config {Untitled 1}
+add_wave {{/async_fifo_TB/as_fifo/fifom/wclk}} {{/async_fifo_TB/as_fifo/fifom/w_en}} {{/async_fifo_TB/as_fifo/fifom/rclk}} {{/async_fifo_TB/as_fifo/fifom/r_en}} {{/async_fifo_TB/as_fifo/fifom/b_wptr}} {{/async_fifo_TB/as_fifo/fifom/b_rptr}} {{/async_fifo_TB/as_fifo/fifom/data_in}} {{/async_fifo_TB/as_fifo/fifom/full}} {{/async_fifo_TB/as_fifo/fifom/empty}} {{/async_fifo_TB/as_fifo/fifom/data_out}} {{/async_fifo_TB/as_fifo/fifom/fifo}} {{/async_fifo_TB/as_fifo/fifom/DEPTH}} {{/async_fifo_TB/as_fifo/fifom/DATA_WIDTH}} {{/async_fifo_TB/as_fifo/fifom/PTR_WIDTH}} 
+restart
+run 50 us
+close_sim

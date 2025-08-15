@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/Mtech/z_placements/verilog_code/fifo/fifo.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sim_1/new/async_fifo_TB.v,1753890659,systemVerilog,,,,async_fifo_TB,,uvm,,,,,,
+D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sources_1/new/asynchronous_fifo.v,1753890651,systemVerilog,,D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sources_1/new/fifo_mem.v,D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sources_1/new/synchronizer.v;D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sources_1/new/wptr_handler.v;D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sources_1/new/rptr_handler.v;D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sources_1/new/fifo_mem.v,asynchronous_fifo,,uvm,,,,,,
+D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sources_1/new/fifo_mem.v,1753890641,systemVerilog,,D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sources_1/new/rptr_handler.v,,fifo_mem,,uvm,,,,,,
+D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sources_1/new/rptr_handler.v,1753890632,systemVerilog,,D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sources_1/new/synchronizer.v,,rptr_handler,,uvm,,,,,,
+D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sources_1/new/synchronizer.v,1753890454,systemVerilog,,D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sources_1/new/wptr_handler.v,,synchronizer,,uvm,,,,,,
+D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sources_1/new/wptr_handler.v,1753890621,systemVerilog,,D:/Mtech/z_placements/verilog_code/fifo/fifo.srcs/sim_1/new/async_fifo_TB.v,,wptr_handler,,uvm,,,,,,
